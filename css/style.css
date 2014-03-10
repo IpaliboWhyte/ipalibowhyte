@@ -1,0 +1,214 @@
+/* IMPORT RESET */
+@import url("reset.css");
+
+/* IMPORT 12 COLUMN RESPONSIVE GS */
+@import url("responsive.gs.12col.css");
+
+
+/*	EXAMPLE STYLES */
+body {
+	font-family: sans-serif;
+	color: white;
+}
+
+#controllerImg{
+position: absolute;
+left: 0%;
+top:20%;
+bottom: 50%;
+
+}
+
+header {
+
+/*	line-height: 10em;	*/
+	font-family: 'ABBEROAD';
+	padding: 20px;
+  
+
+
+}
+
+header h1 {
+    text-align: center;
+	font-size: 55px;
+	padding-top: 30px;
+}
+
+article {
+	font-family: 'ABBEROAD';
+	line-height: 7em;
+	text-align: center;
+}
+
+#youtubeVideo{
+ padding-top: 52px;
+ padding-left: 80px;
+ padding-right: 80px;
+}
+
+#downloadApp{
+  display: inline-block;
+  width: 170px;
+  height: 82px;
+  background: url(Download_on_the_App_Store_Badge_US-UK_135x40.svg);
+  background-size: 170px 82px;
+}
+
+aside {
+	line-height: 20em;
+	text-align: center;
+	
+}
+
+footer {
+	font-family: 'ABBEROAD';
+	line-height: 15em;
+	text-align: center;
+	background: #4D4D4D;
+
+}
+
+
+.contactForm {
+	position: relative;
+	margin: 0 auto;
+	width:50%;	
+	text-align: center;	
+	
+
+}
+
+iframe{
+border-style:solid; 
+border-width:2px;
+    margin:0;
+    padding:0;    
+
+
+}
+
+
+ .textbox { 
+    border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height:25px; 
+    width: 310px; 
+    padding-left:10px; 
+    padding-right:10px; 
+  } 
+
+  .textField{
+	background-color:white;
+	border: 1px solid #848484; 
+    -webkit-border-radius: 30px; 
+    -moz-border-radius: 30px; 
+    border-radius: 30px; 
+    outline:0; 
+    height: 100px;
+    width: 620px;
+   	padding:20px;
+   	max-width: 620px;
+   	overflow: hidden;
+
+  }
+
+
+
+
+.pageFooter{
+	position: relative;
+	font-family: 'ABBEROAD';
+	height: 0%;
+	background: white;
+}
+
+.x{
+   width: 140px;
+   position: absolute;
+   bottom: 0px;
+   left: 50%;
+   margin-left: -70px; /*half the size of width*/
+}
+
+
+
+
+#contactButton{
+    float: right;
+    font-size:20px;
+    font-family: 'ABBEROAD';
+    text-decoration: none;
+    color: white;
+}
+
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+
+}
+
+@font-face {
+    font-family: 'ABBEROAD';
+    src: url('ABBEROAD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('fontello.eot?20658399');
+  src: url('fontello.eot?20658399#iefix') format('embedded-opentype'),
+       url('fontello.woff?20658399') format('woff'),
+       url('fontello.ttf?20658399') format('truetype'),
+       url('fontello.svg?20658399#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?20658399#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-mail-alt:before { content: '\e802'; } /* '' */
+.icon-gamepad:before { content: '\e801'; } /* '' */
