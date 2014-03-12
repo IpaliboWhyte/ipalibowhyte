@@ -29,6 +29,12 @@ header {
 
 }
 
+.noDecoration, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+
+}
+
 header h1 {
     text-align: center;
 	font-size: 55px;
@@ -42,13 +48,14 @@ article {
 }
 
 #youtubeVideo{
- padding-top: 52px;
+ padding-top: 35px;
  padding-left: 80px;
  padding-right: 80px;
 }
 
 #downloadApp{
   display: inline-block;
+  margin-bottom: 20px;
   width: 170px;
   height: 82px;
   background: url(Download_on_the_App_Store_Badge_US-UK_135x40.svg);
@@ -209,6 +216,8 @@ border-width:2px;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+
+
  
 .icon-mail-alt:before { content: '\e802'; } /* '' */
 .icon-gamepad:before { content: '\e801'; } /* '' */
