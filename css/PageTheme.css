@@ -1,0 +1,646 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    /* look this up */
+}
+
+ul{
+float: right;
+font-size:15px;
+font-family: 'Raleway Thin';
+
+/*font-family: 'Gafata', sans-serif;*/
+}
+
+.containerIndicator{
+  position: relative;
+  width: 100%;
+  top: 0%
+
+}
+
+#indicatorBar{
+  margin-left: -10px;
+position: absolute;
+top: 0%;
+font-size: 7px;
+color: #B4FF47;
+
+
+  /*
+  position: relative;
+    margin-left:636px;
+    font-size: 7px;
+    color: #B4FF47;
+    margin-top: -20px;
+
+    */
+
+}
+
+.nameBanner{
+float: left;
+padding: 17px;
+font-size:13px;
+letter-spacing:15px;
+font-family: 'Raleway Thin';
+
+}
+
+li{
+display: inline;
+padding: 13px;
+
+
+}
+
+li:hover{
+
+   color: white;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+
+
+.mainPage {
+height:100%;
+width:100%;
+
+background: url(Imgs/9.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+
+/*
+background-size:100%;
+background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+*/
+
+}
+
+.projectContents {
+position: relative;
+height:100%;
+width:100%;
+background: #B7D865;
+color: white;
+
+}
+
+.projectMedia{
+position: absolute;
+width: auto;
+height: auto%;
+overflow: auto;
+bottom: 0%;
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+border-top: 10px;
+
+}
+
+.musicContent {
+
+height:100%;
+width:100%;
+background: url(Imgs/10.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+.contactContent{
+position: relative;
+height: auto;
+width:100%;
+background: #b7d84b;
+opacity: 0.8;
+overflow:auto;
+padding: 20px 20px;
+}
+
+
+.headLining{
+	position: fixed;
+	width:100%;
+	height: 10px;
+	top:8%;
+	left: 0px;	
+  z-index:9;
+}
+
+#box_1 { 
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 3px;
+	background: #ee3e64;
+  animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+#box_2 { 
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 3px;
+	background: #44accf;
+  animation: fadeinboxes 3s;
+    -moz-animation: fadeinboxes 3s; /* Firefox */
+    -webkit-animation: fadeinboxes 3s; /* Safari and Chrome */
+    -o-animation: fadeinboxes 3s; /* Opera */
+}
+#box_3 { 
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 3px;
+	background: #b7d84b;
+    animation: fadeinboxes 3s;
+    -moz-animation: fadeinboxes 3s; /* Firefox */
+    -webkit-animation: fadeinboxes 3s; /* Safari and Chrome */
+    -o-animation: fadeinboxes 3s; /* Opera */
+
+}
+
+#box_4 { 
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 3px;
+	background: #BA22E8;
+    animation: fadeinboxes 3s;
+    -moz-animation: fadeinboxes 3s; /* Firefox */
+    -webkit-animation: fadeinboxes 3s; /* Safari and Chrome */
+    -o-animation: fadeinboxes 3s; /* Opera */
+}
+
+#box_5 { 
+	display: inline;
+	float: left;
+	width: 20%;
+	height: 3px;
+	background: #ebde52;
+    animation: fadeinboxes 3s;
+    -moz-animation: fadeinboxes 3s; /* Firefox */
+    -webkit-animation: fadeinboxes 3s; /* Safari and Chrome */
+    -o-animation: fadeinboxes 3s; /* Opera */
+}
+
+.menuContainer{
+	position: fixed;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	bottom: 92%;
+	opacity: 0.7;
+  z-index:9;
+  background: #16161F;
+
+   animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+
+.bodyMessage{
+color: white; 
+display: block; 
+letter-spacing:20px; 
+font-size:100px; 
+position: relative; 
+top: 20%; 
+font-family: 'Alegreya Sans SC', sans-serif; "
+      animation: fadeinboxes 4s;
+    -moz-animation: fadeinboxes 4s; /* Firefox */
+    -webkit-animation: fadeinboxes 4s; /* Safari and Chrome */
+    -o-animation: fadeinboxes 4s; /* Opera */
+}
+
+.footerContainer{
+position: absolute;
+display: inline;
+background: white;
+width: 100%;
+height: 20%;
+left: 0%;
+bottom: 0%;
+
+}
+
+hr{
+position: relative;
+display: block;
+top:20%;
+line-height: 30px;
+}
+
+.soundcloudPlayer{
+position: relative;
+top:31%;
+}
+
+
+
+A:link { color: #DCDEDA ;  text-decoration: none}
+A:visited { color: #DCDEDA ; text-decoration: none}
+A:active {text-decoration: none}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url('Raleway Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?45084496');
+  src: url('font/fontello.eot?45084496#iefix') format('embedded-opentype'),
+       url('font/fontello.woff?45084496') format('woff'),
+       url('font/fontello.ttf?45084496') format('truetype'),
+       url('font/fontello.svg?45084496#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?45084496#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-circle:before { content: '\e800'; } /* '' */
+.icon-newspaper:before { content: '\e808'; } /* '' */
+.icon-twitter-circled:before { content: '\e803'; } /* '' */
+.icon-facebook-circled:before { content: '\e801'; } /* '' */
+.icon-gplus-circled:before { content: '\e802'; } /* '' */
+.icon-linkedin-circled:before { content: '\e807'; } /* '' */
+.icon-instagram-circled:before { content: '\e804'; } /* '' */
+.icon-soundcloud-circled:before { content: '\e805'; } /* '' */
+.icon-mail-circled:before { content: '\e806'; } /* '' */
+
+
+
+.facebookIc{
+font-size: 80px;
+margin-left: 120px;
+
+-webkit-transition: font-size 0.3s linear;
+}
+
+i.icon-facebook-circled:hover{
+    color: #3b5998;
+    font-size: 90px;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+
+
+}
+
+
+.twitterIc{
+
+font-size: 80px;
+margin-left: 120px;
+-webkit-transition: font-size 0.3s linear;
+}
+
+i.icon-twitter-circled:hover {
+   font-size: 90px;
+    color: #00aced;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+}
+
+.gplusIc{
+font-size: 80px;
+margin-left: 120px;
+	
+  -webkit-transition: font-size 0.3s linear;
+}
+
+i.icon-gplus-circled:hover {
+   font-size: 90px;
+    color: #dd4b39;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+}
+
+.soundcloudIc{
+
+font-size: 80px;
+margin-left: 120px;
+-webkit-transition: font-size 0.3s linear;
+}
+
+
+i.icon-soundcloud-circled:hover {
+   font-size: 90px;
+    color: #FF6600;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+}
+
+
+.mailIc{
+
+font-size: 80px;
+margin-left: 120px;
+-webkit-transition: font-size 0.3s linear;
+
+	
+}
+
+i.icon-mail-circled:hover {
+   font-size: 90px;
+    color: #ee3e64;
+    -moz-transition: all 0.3s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.3s ease-in;
+    /* Opera */
+    -o-transition: all 0.3s ease-in;
+    /* Standard */
+    transition: all 0.3s ease-in;
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.7;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 0.7;
+    }
+}
+
+/*****************************BoxesAnime***************************/
+
+@keyframes fadeinboxes {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeinboxes { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadeinboxes { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeinboxes { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+ 
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+
+        transform: rotate(360deg);
+    }
+}
+
+/*****************************Main Page Cv icons Anime***************************/
+
+@keyframes fadeincvIc {
+    from {
+      left:-50%;
+        opacity:0;
+    }
+    to {
+      left: 35%;
+        opacity:0.9;
+    }
+}
+@-moz-keyframes fadeincvIc { /* Firefox */
+    from {
+      left:-50%;
+        opacity:0;
+    }
+    to {
+      left: 35%;
+        opacity:0.9;
+    }
+}
+
+@-webkit-keyframes fadeincvIc { /* Safari and Chrome */
+    from {
+        left:-50%;
+        opacity:0;
+    }
+    to {
+        left: 35%;
+        opacity:0.9; 
+    }
+}
+
+
+@-o-keyframes fadeincvIc { /* Opera */
+    from {
+      left:-50%;
+        opacity:0;
+    }
+    to {
+      left: 35%;
+        opacity: 0.9;
+    }
+
+
+}
+
+
+/*****************************Main Page LinkedIn icons Anime***************************/
+
+@keyframes fadeinLinkedIc {
+    from {
+      left:100%;
+        opacity:0;
+    }
+    to {
+      left: 55%;
+        opacity:0.9;
+    }
+}
+@-moz-keyframes fadeinLinkedIc { /* Firefox */
+    from {
+      left:100%;
+        opacity:0;
+    }
+    to {
+      left: 55%;
+        opacity:0.9;
+    }
+}
+
+@-webkit-keyframes fadeinLinkedIc { /* Safari and Chrome */
+    from {
+        left:100%;
+        opacity:0;
+    }
+    to {
+        left: 55%;
+        opacity:0.9; 
+    }
+}
+
+
+@-o-keyframes fadeinLinkedIc { /* Opera */
+    from {
+      left:100%;
+        opacity:0;
+    }
+    to {
+      left: 55%;
+        opacity: 0.9;
+    }
+
+
+}
+
+
+.cvIc{
+  position: absolute;
+  top: 70%;
+  left: 35%;
+  color: white;
+  font-size: 100px;
+
+ animation: fadeincvIc 2s;
+    -moz-animation: fadeincvIc 2s; /* Firefox */
+    -webkit-animation: fadeincvIc 2s; /* Safari and Chrome */
+    -o-animation: fadeincvIc 2s; /* Opera */
+}
+
+.linkedIc{
+  position: absolute;
+  top: 70%;
+  color: white;
+  font-size: 100px;
+  left: 55%;
+
+   animation: fadeinLinkedIc 2s;
+    -moz-animation: fadeinLinkedIc 2s; /* Firefox */
+    -webkit-animation: fadeinLinkedIc 2s; /* Safari and Chrome */
+    -o-animation: fadeinLinkedIc 2s; /* Opera */
+}
