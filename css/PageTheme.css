@@ -98,7 +98,10 @@ background-position: center;
 position: relative;
 height:100%;
 width:100%;
+/*
 background: #B7D865;
+*/
+background: black;
 color: white;
 
 }
@@ -113,7 +116,6 @@ overflow-x: scroll;
 overflow-y: hidden;
 white-space: nowrap;
 border-top: 10px;
-
 }
 
 .musicContent {

@@ -60,7 +60,7 @@ a img {
     content: attr(data-title);
     top: 0;
     background: #0083ab;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 300;
     padding: 30px;
     -webkit-transform: translateY(-100%);
@@ -71,12 +71,13 @@ a img {
 .caption::before {
     content: '...' attr(data-description) '...';
     top: 50%;
-    background: #f27545;
-    font-size: 14px;
+    background: white;
+    font-size: 20px;
     padding: 20px;
     -webkit-transform: translateY(100%);
     -moz-transform: translateY(100%);
     transform: translateY(100%);
+    color: black;
 }
 
 .caption:hover::after,
